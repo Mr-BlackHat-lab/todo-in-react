@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import '../cssOfComponents/header.css'
 
 export default function Header(props){
@@ -13,4 +14,10 @@ export default function Header(props){
             <div className="content">{props.title}</div>
         </div>
     )
+}
+Header.defaultProps={
+    title: "your titel is here"
+}
+Header.propTypes = {
+    title: PropTypes.string.isRequired
 }
