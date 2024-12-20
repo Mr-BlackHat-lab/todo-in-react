@@ -1,24 +1,21 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+#navber{
     background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
     text-align: center;
-    padding: 14px 16px;
+}
+.contt{
+    color: white;
+    padding: 7%;
     text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
+}
+
+.content{
+    text-decoration: solid;
+    font-size: 35px;
+    text-align: center;
+}
+.contt:hover{
     background-color: #111;
-  }
+}

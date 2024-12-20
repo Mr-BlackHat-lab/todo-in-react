@@ -6,7 +6,7 @@ import Footer from './Mycomponents/Footer';
 function App() {
   return (
     <>
-    <Header/>
+    <Header title="My Todolist"/>
     <Todos/>
     <Footer/>
     </>
