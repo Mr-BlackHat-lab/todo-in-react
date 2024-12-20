@@ -1,10 +1,14 @@
 import React from "react";
 
-export const Todo = () => {
+export const Todo = (props) => {
+
     return(
         <div>
-            todo work
+            <h4>{props.worker.title}</h4>
+            <p>{props.worker.decs}</p>
+            <button className="custom-btn delete-btn custom-btn-sm">Delete</button>
         </div>
+        
 
     )
 }
