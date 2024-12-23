@@ -11,7 +11,7 @@ export default function Header(props){
                 <a className="contt" >About</a>
                 <a className="contt" >contact</a>
             </nav>
-            <div className="content">{props.title}</div>
+           
         </div>
     )
 }
